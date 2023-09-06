@@ -43,18 +43,20 @@ nav li{
     padding: 10px 15px;
     margin-right: 5px ;
     border-radius: 5px;
+    list-style-type: none;
+
     
 
 }
 
 nav li:hover{
     border:0.5px solid white;
+    box-shadow: inset ;
 }
 
 
 
 nav>ul>li>a{
-    
     text-decoration: none;
     color: white;
 }
